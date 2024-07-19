@@ -122,10 +122,14 @@ border: 0;
 .awesome {
     background-repeat: no-repeat;
     background-image: url(../images/Illustration.png);
-    background-position: 67% 20%;
+    background-position: bottom 150px right 399px;
 }
 
-
+.awesome-social {
+    display:flex ;
+    gap: 31px;
+    padding-bottom: 195px;
+}
 
 
 .awesome-title {
@@ -182,6 +186,8 @@ padding-top: 12px;
 padding-bottom: 12px;
 border-radius: 8px;
 }
+
+
 
 
 
@@ -315,14 +321,10 @@ text-align: center;
 
 
 .brand {
-background-image: url(../images/gradd.png);
-background-position: center;
-background-repeat: no-repeat;
-border-radius: 25px;
-margin-top: 216px;
-height: 253px;
-margin-bottom: 200px;
-
+    border-radius: 25px;
+    margin-top: 216px;
+    height: 253px;
+    margin-bottom: 200px;
 }
 
 .tool {
@@ -361,6 +363,19 @@ line-height: normal;
 
 /* newcomer-section */
 
+
+.newcomer-box {
+    display: flex;
+    gap: 197px;
+}
+
+.newcomer-li {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 22px;
+    padding-right: 21px;
+}
+
 .newcomer-title {
 color: rgba(255, 255, 255, 0.78);
 font-size: 24px;
@@ -373,6 +388,8 @@ color: rgba(255, 165, 55, 0.55);
 font-size: 18px;
 font-weight: 400;
 line-height: normal;
+margin-top: 3px;
+margin-bottom: 30px;
 }
 
 .newcomer-l {
@@ -380,9 +397,13 @@ color: rgba(255, 255, 255, 0.55);
 font-size: 14px;
 font-weight: 400;
 line-height: 30px;
+width: 245px;
+margin-bottom: 30px;
 }
 
-
+.newcomer-img {
+    margin-bottom: 40px;
+}
     
 .newcomer-butt {
     background: transparent;
@@ -395,17 +416,18 @@ font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+margin-left: 49px;
 }
 
 .newcomer-ul {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .newcomer-div {
     display: flex;
     gap: 30px;
-    align-items: center;
 }
 
 
@@ -443,6 +465,16 @@ border-radius: 8px;
 background: #1E252B;
 }
 
+
+  .ronald-dav {
+    display: flex;
+  }  
+
+  .ronald {
+    margin-top: 273px;
+  }
+
+
 .richards {
 color: rgba(255, 253, 253, 0.78);
 font-size: 26px;
@@ -459,6 +491,16 @@ font-weight: 400;
 line-height: 30px;
 letter-spacing: 0.21px;
 width: 393px;
+
+}
+
+.aducation {
+    margin-top: 145px;
+    margin-bottom: 250px;
+}
+
+.become-email {
+display: flex;
 }
 
 .prod {
@@ -474,24 +516,44 @@ text-align: center;
 font-size: 48px;
 font-weight: 500;
 line-height: 130%;
+margin-bottom: 25px;
 }
 
 .join {
 color: rgba(255, 255, 255, 0.55);
-text-align: center;
 font-size: 18px;
 font-weight: 500;
 line-height: 30px;
 width: 427px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.become-email {
+    border-radius: 15px;
+    border: 1.5px solid rgba(255, 255, 255, 0.10);
+    background: #283036;
+    width: 549px;
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 240px;
 }
 
 .enter {
-color: rgba(255, 255, 255, 0.38);
-font-size: 14px;
-font-weight: 400;
-line-height: normal;
-border-radius: 15px;
-background: #283036
+    color: rgba(255, 255, 255, 0.38);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 22px;
+    margin-left: 24px;
+    margin-right: 260px;
+    background: #283036;
+    border: none;
+    margin-bottom: 22px;
 }
 
 .byt {
@@ -500,7 +562,8 @@ font-size: 16px;
 font-weight: 600;
 line-height: normal;
 border-radius: 8px;
-background: #FF6E30
+background: #FF6E30;
+border: none;
 }
 
 .footer-title {
@@ -517,3 +580,52 @@ font-weight: 400;
 line-height: 25px;
 }
 
+.img-antools {
+    display: flex;
+}
+
+.footer-img {
+    margin-right: 12px;
+    width: 38px;
+    height: 38px;
+    margin-bottom: 25px;
+}
+
+.lkla {
+    width: 260px;
+    margin-top: 21px;
+    margin-bottom: 98px;
+}
+
+
+.footer-ant {
+    margin-bottom: 27px;
+}
+
+.blok {
+    display: flex;
+}
+
+.footer-h {
+    margin-bottom: 20px;
+}
+
+.footer-p {
+    margin-bottom: 10px;
+}
+
+.footer-n {
+
+}
+
+.firs {
+    margin-right: 156px;
+}
+
+.second {
+    margin-right: 115px;
+}
+
+.third {
+    margin-right: 115px;
+}
