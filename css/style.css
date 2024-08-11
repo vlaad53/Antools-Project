@@ -20,6 +20,7 @@ ul {
 }
 
 
+
 h1,h2,h3,p {
     margin: 0;
     padding: 0;
@@ -559,7 +560,7 @@ margin-right: auto;
     line-height: normal;
     margin-top: 22px;
     margin-left: 24px;
-    margin-right: 260px;
+    margin-right: auto;
     background: #283036;
     border: none;
     margin-bottom: 22px;
@@ -573,6 +574,7 @@ line-height: normal;
 border-radius: 8px;
 background: #FF6E30;
 border: none;
+padding: 12px 36px;
 }
 
 .footer-title {
